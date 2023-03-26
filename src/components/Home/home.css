@@ -1,0 +1,17 @@
+.Card {
+    height: 100%;
+  }
+  
+
+  .Card > .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .Card > .card-body {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
